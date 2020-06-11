@@ -3,7 +3,13 @@ var userName="";
 var uName="";
 
 $(document).ready(function(){
-    if()
+
+    revConexion(uname);
+    if(userName==""){
+        $('#nombreUsuario').val("Anonimo");
+    }else{
+        $('#nombreUsuario').val(userNAme);
+    }
 })
 
 $('#login').click(function(){
@@ -15,6 +21,7 @@ $('#login').click(function(){
     $('#nombreUsuario').val(uName);
 
 })
+
 
 /**
  * 
@@ -45,16 +52,16 @@ function login(user,pass){
     return uName;
 }
 
-function revConexion(){
+function revConexion(name){
 
-    if(userName=="Natalia Mora"||
-        userName=="Consuelo Peña"||
-        userName=="Isaac Pizarro"){
-        //label superior izquierda aparecera nombre
-        //de uusario que esta conectado.
-
+    if(name=="ipizarro"){
+        userName="Isaac Pizarro";
+    }else if(name="nmora"){
+        userName="Natalia Mora";
+    }else if(name=="cpena"){
+        userName="Consuelo Peña";
     }else{
-        //label aparecera como anonimo
+        userName="";
     }
 
 }
