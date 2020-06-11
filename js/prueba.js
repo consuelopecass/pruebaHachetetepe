@@ -24,21 +24,21 @@ $('#login').click(function(){
 function login(user,pass){
     
     if (user=="ipizarro" && pass=="123456") { 
-        window.location="login.html"; 
+        window.location="index.html"; 
         userName="Isaac Pizarro";
     }else if (user=="nmora" && pass=="123456") { 
-        window.location.href="login.html";
+        window.location.href="index.html";
         userName="Natalia Mora";
     }else if (user=="cpena" && pass=="123456") { 
-        window.location.href="login.html";
+        window.location.href="index.html";
         userName="Consuelo Peña"; 
     }else if (user=="" && pass=="") { 
         window.location="errorpopup.html";
-        userName="";
+        userName="Anonimo";
         intento++;
     } else{
         window.location="errorpopup.html";
-        userName="";
+        userName="Anonimo";
         intento++;
     }
     return userName;
