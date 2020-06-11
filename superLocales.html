@@ -12,29 +12,37 @@
 </head>
 
 <body>
-    <header>
-
-        <button type="submit"> enviar/cerrar sesión </button>
-
+    <header>       
         <h1>Proyecto Hachetetepe ¡No botes la comida!</h1>
+ </header>
+   
 
-    </header>
+    <div class="side">
 
-    <nav>
-        <ul>
-            <li><a href="login.html">login</a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="quienesSomos.html">Quienes Somos</a></li>
-            <li><a href="restosAsociados.html">Asociados</a></li>
-            <li><a href="superLocales.html">Super</a></li>
-            <li><a href="comparteOtros.html">Otros locales</a></li>
-            <li><a href="testimoniales.html">Testimonios</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="final.html">final</a></li>
-            <button type="submit"  onclick="location.href='login.html'"> Iniciar sesión </button>
-        </ul>
-    </nav>
+        <!-- usar un toggle  para cambiar el estado  en el responsive y despliegue el menu al pasar a la resolucion mobile-->
+        <input  type="checkbox" id="bmenu"> 
 
+        
+        
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quienesSomos.html">Quienes Somos</a></li>
+                <li><a href="restosAsociados.html">Asociados</a></li>
+                <li><a href="superLocales.html">Super</a></li>
+                <li><a href="comparteOtros.html">Otros locales</a></li>
+                <li><a href="testimoniales.html">Testimonios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                
+                              
+              
+            </ul>
+            </nav>
+
+    </div>
+    
+ <div class="contenedor">
+    <section class="caja1">
 
     <h2>Supermercados y Locales Asociados</h2>
 
@@ -128,11 +136,15 @@
             <p>Pincha <a href="https://www.brusselsheartofchocolate.com/"> acá</a> para obtener más información del local</p>
         </div>
     </section>
+    </section>
+
+</div>
 
     <footer>
         <p>Pagina creada por <a href="#">HacheTeTePe</a>©® y Asociados. <br> 2020. Todos los derechos reservados</p>
     </footer>
     <script src="js/prueba.js"></script>
+
 </body>
 
 </html>
