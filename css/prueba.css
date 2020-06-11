@@ -2,8 +2,8 @@
 *{box-sizing: border-box;}
 
 body{
-    background-color: rgb(240, 240, 243);
-    color:rgb(16, 16, 100);
+    background-color:#f3e6be;
+    color: #b7c06f;
     font-family: 'Barlow', sans-serif;
     margin: 0;
 
@@ -33,13 +33,13 @@ header{
   position: absolute;
   width: 250px;
   height: 100%;
-  background-color:#333;
-  color: #2a2a2a;;
+  background-color:#9b3c2e ;
+  color: #f5a883;
 
 }
 
 .side a{
-  color: #ffffff;
+  color: #f5a883;
   text-decoration: none;
   padding:  15px;
 
@@ -55,8 +55,7 @@ header{
 
 }
 .side li{
-  border: 2px solid#4444;
-  outline: 1px solid #eeeeee;
+ 
   margin: 25px;
 
 
