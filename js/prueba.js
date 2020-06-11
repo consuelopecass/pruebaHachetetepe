@@ -4,11 +4,11 @@ var uName="";
 
 $(document).ready(function(){
 
-    revConexion(uname);
+    revConexion(uName);
     if(userName==""){
-        $('#nombreUsuario').val("Anonimo");
+        $('#nombreUsuario').append("Anonimo");
     }else{
-        $('#nombreUsuario').val(userNAme);
+        $('#nombreUsuario').append(userName);
     }
 })
 
