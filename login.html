@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/prueba.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
@@ -20,6 +21,7 @@
         <input  type="checkbox" id="bmenu"> 
 
         <label class="tmenu">Menu</label>
+        <label id="nombreUsuario" value="anonimo"></label>
         <nav class="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -37,23 +39,24 @@
             </nav>
 
     </div>
-    <div>
+    <div class="contenedor login">
         <p>Inicio de Sesion</p>
         <form action="" >
             <label for="usuario">Ingrese Usuario</label><br>
             <input type="text" id="usuario"><br><br>
             <label for="pass">Ingrese contraseña</label><br>    
-            <input type="text" id="pass">
+            <input type="text" id="pass"><br><br>
+            <input type="button" value="Conectar" id="login">
         </form>
     </div>
     
     
 
-    <link rel="stylesheet" href="pagina1.html">
+    
     <p>Leer más...</p>
 
     <footer><p>Pagina creada por <a href="#">HacheTeTePe</a>©® y Asociados. <br> 2020. Todos los derechos reservados</p></footer>
-
+<script src="js/prueba.js"></script>
 </body>
 
 </html>
