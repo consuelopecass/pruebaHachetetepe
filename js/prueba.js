@@ -24,8 +24,12 @@ function login(user,pass){
         window.location="errorpopup.html";
         done++;
     }
- 
+}
 
+function revConexion(){
 
+    //funcion para revisar si esta conectado y cambiar el boton a cerrar sesion o Login
 
 }
+
+//mantener en cache datos de inicio de sesion para pasar pagina por pagina
