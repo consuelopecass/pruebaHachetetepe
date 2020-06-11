@@ -2,15 +2,6 @@ var intento=0;
 var userName="Isaac Pizarro";
 var uName="";
 
-$(document).ready(function(){
-
-    revConexion(uName);
-    if(userName==""){
-        $('#nombreUsuario').append("Anonimo");
-    }else{
-        $('#nombreUsuario').append(userName);
-    }
-})
 
 $('#login').click(function(){
     var user = $('#usuario').val();
@@ -32,13 +23,13 @@ $('#login').click(function(){
 function login(user,pass){
     
     if (user=="ipizarro" && pass=="123456") { 
-        window.location="index.html"; 
+        window.location="login.html"; 
         userName="Isaac Pizarro";
     }else if (user=="nmora" && pass=="123456") { 
-        window.location.href="index.html";
+        window.location.href="login.html";
         userName="Natalia Mora";
     }else if (user=="cpena" && pass=="123456") { 
-        window.location.href="index.html";
+        window.location.href="login.html";
         userName="consuelo Peña"; 
     }else if (user=="" && pass=="") { 
         window.location="errorpopup.html";
@@ -65,5 +56,21 @@ function revConexion(name){
     }
 
 }
+/**
+ * 
+ * Fancybox
+ */
 
-//mantener en cache datos de inicio de sesion para pasar pagina por pagina
+$("#btn-login").on('click',function() {
+
+    $.fancybox.open({
+      src  : 'login.html',
+      type : 'iframe',
+      opts : {
+        afterShow : function( instance, current ) {
+          console.info( 'done!' );
+        }
+      }
+    });
+  
+  });
