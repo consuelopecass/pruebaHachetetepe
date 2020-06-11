@@ -8,8 +8,9 @@ $('#login').click(function(){
     var pass = $('#pass').val();
 
     uName=login(user,pass);
+    alert("bienvenid@ "+uName);
 
-    $('#nombreUsuario').val(uName);
+    //$('#nombreUsuario').val(uName);
 
 })
 
@@ -30,7 +31,7 @@ function login(user,pass){
         userName="Natalia Mora";
     }else if (user=="cpena" && pass=="123456") { 
         window.location.href="login.html";
-        userName="consuelo Peña"; 
+        userName="Consuelo Peña"; 
     }else if (user=="" && pass=="") { 
         window.location="errorpopup.html";
         userName="";
@@ -40,21 +41,7 @@ function login(user,pass){
         userName="";
         intento++;
     }
-    return uName;
-}
-
-function revConexion(name){
-
-    if(name=="ipizarro"){
-        userName="Isaac Pizarro";
-    }else if(name="nmora"){
-        userName="Natalia Mora";
-    }else if(name=="cpena"){
-        userName="Consuelo Peña";
-    }else{
-        userName="";
-    }
-
+    return userName;
 }
 /**
  * 
