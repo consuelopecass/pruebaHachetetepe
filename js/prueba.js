@@ -1,11 +1,16 @@
 var intento=0; 
 var userName="";
+var uName="";
+
+$(document).ready(function(){
+    if()
+})
 
 $('#login').click(function(){
     var user = $('#usuario').val();
     var pass = $('#pass').val();
 
-    var uName=login(user,pass);
+    uName=login(user,pass);
 
     $('#nombreUsuario').val(uName);
 
@@ -19,20 +24,17 @@ $('#login').click(function(){
  */
 function login(user,pass){
     
-    if (user=="nmora" && pass=="123456") { 
-        window.location="index.html"; 
-        userName="Natalia Mora";
-    } 
-    if (user=="cpena" && pass=="123456") { 
-        window.location="index.html";
-        userName="consuelo Peña"; 
-    } 
     if (user=="ipizarro" && pass=="123456") { 
         window.location="index.html"; 
         userName="Isaac Pizarro";
-        } 
-    if (user=="" && pass=="") { 
-        window.location="errorpopup.html"; 
+    }else if (user=="nmora" && pass=="123456") { 
+        window.location.href="index.html";
+        userName="Natalia Mora";
+    }else if (user=="cpena" && pass=="123456") { 
+        window.location.href="index.html";
+        userName="consuelo Peña"; 
+    }else if (user=="" && pass=="") { 
+        window.location="errorpopup.html";
         userName="";
         intento++;
     } else{
@@ -40,7 +42,7 @@ function login(user,pass){
         userName="";
         intento++;
     }
-    return userName;
+    return uName;
 }
 
 function revConexion(){
