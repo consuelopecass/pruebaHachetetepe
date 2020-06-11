@@ -10,8 +10,6 @@ $('#login').click(function(){
     uName=login(user,pass);
     alert("bienvenid@ "+uName);
 
-    //$('#nombreUsuario').val(uName);
-
 })
 
 
