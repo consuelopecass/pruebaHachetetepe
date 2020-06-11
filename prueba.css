@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+body{
+    background-color: rgb(rgb(60, 60, 139));
+    color:blue;
+    font-family: 'Barlow', sans-serif;
+
+}
+nav{
+    background: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 12em;
+    
+}
