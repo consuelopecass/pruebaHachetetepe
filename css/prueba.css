@@ -84,7 +84,7 @@ header{
   .menu li{
     border-top: 2px solid snow ; 
   }
-  }
+  
 
 .fotos{
   border-radius: 50%;
@@ -101,6 +101,7 @@ header{
 }
 
 
+
 footer{
   background-color: black;
   position: fixed;
@@ -108,4 +109,5 @@ footer{
   width: 100%;
   height: 40px;
   color: white;
+}
 }
