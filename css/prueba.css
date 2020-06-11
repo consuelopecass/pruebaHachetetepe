@@ -5,62 +5,107 @@ body{
     background-color: rgb(240, 240, 243);
     color:rgb(16, 16, 100);
     font-family: 'Barlow', sans-serif;
+    margin: 0;
+
+}
+.tmenu{
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background: #2a2a2a2a;
 
 }
 
 header{
   width: 100%;
-  height: 200px;
-  display: inline-block;
+  background-image: url("./pruebaHachetetepe/img/kawaii.jpg");
+  text-align: center;
+
+
   
 }
+#bmenu{
+  display:none;
 
-nav{
-    background: rgb(206, 201, 238);
-    margin: 50px;
-    padding: 30px;
-    display: table-column;
-    position: relative;
-    float: left;
-        
 }
-nav ul{
-  width: 100%;
-  color: black;
+
+.side {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  background-color:#333;
+  color: #2a2a2a;;
+
+}
+
+.side a{
+  color: #ffffff;
+  text-decoration: none;
+  padding:  15px;
+
+
+}
+
+.side ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+  
   
 
 }
-nav ul :hover{
-  background-color: rgb(10, 9, 10);
-  color: blueviolet;
+.side li{
+  border: 2px solid#4444;
+  outline: 1px solid #eeeeee;
+  margin: 25px;
+
+
+
+}
+.menu ul li:hover{
+  background-color: #444444;
+  border-right: 2px solid snow;
 
 }
 
-nav ul li{
-  text-align: justify;
-  margin: 15px;
+@media(max-width:768px){
+  .side label{
+    display: block;
+  }
+  .menu{
+    position: absolute;
+    
+    
+  }
   
+  .menu ul{
+    flex-direction: column;
+  }
+  .menu li{
+    border-top: 2px solid snow ; 
+  }
+  }
 
+.fotos{
+  border-radius: 50%;
+  border-color: blueviolet;
+  border: solid 5px;
+  width: 250px;
+  height: 250px;
 }
-contenedor{
-  width: 100%;
-  height: 200px;
-  text-align: justify;
+
+.contenedor{
+  width: 800px;
   float: right;
-  padding: 50px;
-  margin: 50px;
-
-}
-
-
-.caja1{
-  text-align: justify;
-
   
 }
+
+
 footer{
-     height: 50px;
-     position: absolute;
-     width: 100%;
-     bottom: auto;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
 }
