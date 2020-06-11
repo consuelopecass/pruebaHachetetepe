@@ -56,3 +56,21 @@ function revConexion(name){
     }
 
 }
+/**
+ * 
+ * Fancybox
+ */
+
+$("#btn-login").on('click',function() {
+
+    $.fancybox.open({
+      src  : 'login.html',
+      type : 'iframe',
+      opts : {
+        afterShow : function( instance, current ) {
+          console.info( 'done!' );
+        }
+      }
+    });
+  
+  });
