@@ -1,5 +1,5 @@
 var intento=0; 
-var userName="";
+var userName="Isaac Pizarro";
 var uName="";
 
 $(document).ready(function(){
