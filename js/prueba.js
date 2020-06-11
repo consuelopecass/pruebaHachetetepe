@@ -64,9 +64,10 @@ function revConexion(name){
 $("#btn-login").on('click',function() {
 
     $.fancybox.open({
-      src  : 'login.html',
-      type : 'iframe',
-      opts : {
+        
+        src  : 'login.html',
+        type : 'iframe',
+        opts : {
         afterShow : function( instance, current ) {
           console.info( 'done!' );
         }
