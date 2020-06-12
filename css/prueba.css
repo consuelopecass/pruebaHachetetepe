@@ -42,6 +42,7 @@ h1{
 h2,h3{
   color:  rgba(235, 139, 53);
   text-align: center;
+  
 }
 
 #bmenu{
@@ -121,6 +122,7 @@ h2,h3{
 }
 
 
+
 .fotos{
   border-radius: 50%;
   border-color:  rgba(164, 54, 4, 1);
@@ -132,29 +134,25 @@ h2,h3{
 .contenedor{
   
   text-align: justify;
-  margin-left: 30%;
+  margin-left: 25%;
   width: 1000px;
   height: 900px;
   padding: 25px left;
 
 }
 
+footer #pie{
 
+background-color:rgba(245, 168, 131, .6);
+width: 100%;
+color: white;
+border-radius: 10px;
+position: absolute;
+text-align: center;
 
-
-
-
-footer{
-  background-color:rgba(245, 168, 131, .6);
-  width: 100%;
-  height: 30px;
-  color: white;
-  bottom: 2px;
-  border-radius: 10px;
-  text-align: center;
-  position: fixed;
-  
 }
+
+
 .boxlogin{
   width: 300px;
   height: 350px;
