@@ -41,12 +41,7 @@ h1{
 
 h2,h3{
   color:  rgba(235, 139, 53);
-<<<<<<< HEAD
-  text-align: center;
-  
-=======
   text-align: left;
->>>>>>> 67ba4319946a0a00db3ec813529c632dd05fa00a
 }
 
 #bmenu{
@@ -126,9 +121,6 @@ h2,h3{
 }
 
 
-
-
-
 .fotos{
   border-radius: 50%;
   border-color:  rgba(164, 54, 4, 1);
@@ -138,27 +130,45 @@ h2,h3{
 }
 
 .contenedor{
-  
   text-align: justify;
-  margin-left: 25%;
+  margin: auto;
   width: 1000px;
   height: 900px;
   padding: 25px left;
 
 }
 
-footer #pie{
+/** Quienes somos y Blog **/
 
-background-color:rgba(245, 168, 131, .6);
-width: 100%;
-color: white;
-border-radius: 10px;
-position: absolute;
-text-align: center;
-
+.caja {
+  border: rgba(245, 168, 131, .8) solid 2px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 40px;
+  padding: 30px;
 }
 
+/** Testimonios **/
 
+blockquote {
+  border: rgba(164, 54, 4, 1) solid 2px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 20px;
+  padding: 30px;
+}
+
+footer{
+  background-color:rgba(245, 168, 131, .6);
+  width: 100%;
+  height: 30px;
+  color: white;     
+  bottom: 2px;
+  border-radius: 10px;
+  text-align: center;
+  position: fixed;
+  
+}
 .boxlogin{
   width: 300px;
   height: 350px;
@@ -172,55 +182,20 @@ text-align: center;
 
 /* responsive*/
 
-
-
-
-@media screen and (max-width: 360px , 320px) {
-
-  body, input, select, textarea {
-    font-size: 10pt;
+@media(max-width:768px){
+  .side label{
+    display: block;
   }
-  
-  .contenedor{
-    width: 50%;
-    text-align: right;
-    margin-left: 25%;
-  
-  }
-
-  .side{
-    size: 20%;
-    width: 30px;
-    margin: 5px;
-
+  .menu{
+    position: absolute;
+    
     
   }
-
-  .side ul{
-    list-style: none;
-    margin:0;
-    padding: 0;
-    text-align: left;
   
+  .menu ul{
+    flex-direction: column;
   }
-
-  .side li{
- 
-    margin: 10px;
-    padding: 5px;
-    border-radius: 5px;
-
-   
-  
-  
-  
+  .menu li{
+    border-top: 2px solid snow ; 
   }
-  .menu ul li:hover{
-    background-color:rgba(245, 168, 131, .6);
-    border-right: 2px solid snow;
-   color: rgba(205, 187, 163, 1);
-  
-  }
-  
-
 }
