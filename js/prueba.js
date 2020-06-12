@@ -9,13 +9,14 @@ $('#login').click(function(){
 
     uName=login(user,pass);
 
-    if(uName=="Isaac Pizarro"||uName=="Natalia Mora"||uName=="Consuelo Peña"){
-        alert("bienvenid@ "+uName);
+    if(uName==""){
+        document.location.href="error.html";
+         
+        alert("Usuario y clave incorrecto");
         
     }else{
-        document.location.href="error.html";
-        //window.location="error.html"; 
-        alert("Usuario y clave incorrecto");
+        alert("bienvenid@ "+uName);
+        
     }
     
 
@@ -35,8 +36,6 @@ $('#logon').on('click',function() {
     });
   
   });
-
-
 /**
  * 
  * @param {usuario} user 
@@ -65,4 +64,14 @@ function login(user,pass){
     }
     return userName;
 }
+
+$('#logon').click(function(){
+    $('#lilogon').hide();
+    $('#lilogin').show();
+})
+$('#logoff').click(function(){
+    $('#lilogin').hide();
+    $('#lilogon').show();
+    alert("Sesion cerrada");
+})
 
