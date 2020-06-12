@@ -8,7 +8,13 @@ $('#login').click(function(){
     var pass = $('#pass').val();
 
     uName=login(user,pass);
-    alert("bienvenid@ "+uName);
+
+    if(uName==""){
+        alert("Usuario y clave incorrecto");
+    }else{
+        alert("bienvenid@ "+uName);
+    }
+    
 
 })
 
@@ -46,12 +52,12 @@ function login(user,pass){
         window.location.href="index.html";
         userName="Consuelo Peña"; 
     }else if (user=="" && pass=="") { 
-        window.location="errorpopup.html";
-        userName="Anonimo";
+        
+        userName=""; 
         intento++;
     } else{
-        window.location="errorpopup.html";
-        userName="Anonimo";
+        
+        userName=""; 
         intento++;
     }
     return userName;
