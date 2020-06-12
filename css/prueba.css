@@ -41,8 +41,12 @@ h1{
 
 h2,h3{
   color:  rgba(235, 139, 53);
+<<<<<<< HEAD
   text-align: center;
   
+=======
+  text-align: left;
+>>>>>>> 67ba4319946a0a00db3ec813529c632dd05fa00a
 }
 
 #bmenu{
