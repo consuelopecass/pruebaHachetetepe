@@ -8,28 +8,39 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 </head>
 <body>
-    <header>
+    <header>       
         <h1>Proyecto Hachetetepe ¡No botes la comida!</h1>
-        <button type="submit"> enviar/cerrar sesión </button>
-    </header>
+ </header>
+   
 
-    <nav>
-        <ul>
-            <li><a href="login.html">login</a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="quienesSomos.html">Quienes Somos</a></li>
-            <li><a href="restosAsociados.html">Asociados</a></li>
-            <li><a href="superLocales.html">Super</a></li>
-            <li><a href="comparteOtros.html">Otros locales</a></li>
-            <li><a href="testimoniales.html">Testimonios</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="final.html">final</a></li>
-            <button type="submit"  onclick="location.href='login.html'"> Iniciar sesión </button>
-        </ul>
-    </nav>
+    <div class="side">
 
+        <!-- usar un toggle  para cambiar el estado  en el responsive y despliegue el menu al pasar a la resolucion mobile-->
+        <input  type="checkbox" id="bmenu"> 
+
+        
+        
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quienesSomos.html">Quienes Somos</a></li>
+                <li><a href="restosAsociados.html">Asociados</a></li>
+                <li><a href="superLocales.html">Super</a></li>
+                <li><a href="comparteOtros.html">Otros locales</a></li>
+                <li><a href="testimoniales.html">Testimonios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                
+                              
+              
+            </ul>
+            </nav>
+
+    </div>
+    
+ <div class="contenedor">
     <h2>Testimonios y experiencias</h2>
 
     <section>
@@ -75,5 +86,6 @@
     </section>
     
         <footer><p>Pagina creada por <a href="#">HacheTeTePe</a>©® y Asociados. <br> 2020. Todos los derechos reservados</p></footer>
-</body>
+ </div>
+    </body>
 </html>
