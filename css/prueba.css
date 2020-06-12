@@ -41,12 +41,8 @@ h1{
 
 h2,h3{
   color:  rgba(235, 139, 53);
-<<<<<<< HEAD
   text-align: center;
   
-=======
-  text-align: left;
->>>>>>> 67ba4319946a0a00db3ec813529c632dd05fa00a
 }
 
 #bmenu{
@@ -126,7 +122,13 @@ h2,h3{
 }
 
 
+#santiago{
+  float: right;
+  width: 600px;
+  height: 800px;
+  border-style: double;
 
+}
 
 
 .fotos{
@@ -136,6 +138,23 @@ h2,h3{
   width: 250px;
   height: 250px;
 }
+
+.caja {
+  border: rgba(245, 168, 131, .8) solid 2px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 40px;
+  padding: 30px;
+}
+
+blockquote {
+  border: rgba(164, 54, 4, 1) solid 2px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 20px;
+  padding: 30px;
+
+  }
 
 .contenedor{
   
