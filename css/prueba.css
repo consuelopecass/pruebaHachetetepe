@@ -130,13 +130,16 @@ h2,h3{
 }
 
 .contenedor{
+  
   text-align: justify;
-  margin: auto;
+  margin-left: 30%;
   width: 1000px;
   height: 900px;
   padding: 25px left;
 
 }
+
+
 
 
 
