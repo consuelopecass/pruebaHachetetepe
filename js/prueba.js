@@ -9,10 +9,13 @@ $('#login').click(function(){
 
     uName=login(user,pass);
 
-    if(uName==""){
-        alert("Usuario y clave incorrecto");
-    }else{
+    if(uName=="Isaac Pizarro"||uName=="Natalia Mora"||uName=="Consuelo Peña"){
         alert("bienvenid@ "+uName);
+        
+    }else{
+        document.location.href="error.html";
+        //window.location="error.html"; 
+        alert("Usuario y clave incorrecto");
     }
     
 
@@ -52,11 +55,11 @@ function login(user,pass){
         window.location.href="index.html";
         userName="Consuelo Peña"; 
     }else if (user=="" && pass=="") { 
-        
+        parent.location="error.html";
         userName=""; 
         intento++;
     } else{
-        
+        parent.location="error.html";
         userName=""; 
         intento++;
     }
