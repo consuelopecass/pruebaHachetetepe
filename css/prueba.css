@@ -41,7 +41,7 @@ h1{
 
 h2,h3{
   color:  rgba(235, 139, 53);
-  text-align: center;
+  text-align: left;
 }
 
 #bmenu{
@@ -137,6 +137,24 @@ h2,h3{
   padding: 25px left;
 
 }
+
+/** Quienes somos **/
+
+.caja {
+  border: rgba(245, 168, 131, .8) solid 2px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 40px;
+  padding: 30px;
+}
+
+.imagen-fundacion {
+  text-align: right;
+
+
+}
+
+
 
 
 
