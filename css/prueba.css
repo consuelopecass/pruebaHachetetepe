@@ -124,10 +124,51 @@ h2,h3{
 
 #santiago{
   float: right;
-  width: 600px;
+  width: 900px;
   height: 800px;
-  border-style: double;
+  border-style: dashed;
+  border-color:  rgba(235, 139, 53);
+  
+}
+#santiago .fotos{
+   margin: 15px;
+  border: rgba(164, 54, 4, 1) solid 2px;
+  width: 180px;
+  height: 180px;
+  
+  
+}
 
+#valpo{
+  
+  width: 900px;
+  height: 800px;
+  border: dashed rgba(235, 139, 53);
+  float: left;
+  
+}
+#valpo .fotos{
+ text-align: center;
+  margin: 50px;
+  border: rgba(164, 54, 4, 1) solid 2px;
+  width: 180px;
+  height: 180px;
+  
+  
+}
+
+#serena{
+  float: right;
+  width: 900px;
+  height: 800px;
+  border: dashed rgba(235, 139, 53);
+
+}
+#serena .fotos{
+  margin: 15px;
+  border: rgba(164, 54, 4, 1) solid 2px;
+  width: 180px;
+  height: 180px;
 }
 
 
@@ -160,8 +201,8 @@ blockquote {
   
   text-align: justify;
   margin-left: 25%;
-  width: 1000px;
-  height: 900px;
+  width: 950px;
+  height: 800px;
   padding: 25px left;
 
 }
