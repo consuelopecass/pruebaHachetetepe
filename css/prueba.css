@@ -6,8 +6,8 @@
 *{box-sizing: border-box;}
 
 body{
-    background-color: rgba(243, 230, 190, .5);
-    color: #b7c06f;
+  background-color: rgba(222, 223, 228, .8);
+    color: rgba(235, 139, 53, 1);
     font-family: 'Barlow', sans-serif;
     margin: 0;
 
@@ -22,15 +22,20 @@ body{
 
 header{
   width: 100%;
-  background-color: rgba(155, 60, 46, .6);
+  background-color: rgba(235, 139, 53, .6);
+  color: rgba(164, 54, 4, 1);
   text-align: center;
   font-family: 'Lato', sans-serif;
   border-radius: 25px;
   padding: 10px;
   margin: 10px;
-
-
   
+}
+
+h1{
+
+  color: rgba(164, 54, 4, 1);
+
 }
 #bmenu{
   display:none;
@@ -86,11 +91,12 @@ header{
 }
 
 .contenedor{
-  width: 780px;
   text-align: center;
-  margin-left: 25%;
-  
-  
+  margin: auto;
+  width: 400px;
+  height: 300px;
+
+ 
   
 }
 
