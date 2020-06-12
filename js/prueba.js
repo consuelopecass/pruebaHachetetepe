@@ -3,6 +3,7 @@ var userName="Isaac Pizarro";
 var uName="";
 
 
+
 $('#login').click(function(){
     var user = $('#usuario').val();
     var pass = $('#pass').val();
@@ -75,3 +76,21 @@ $('#logoff').click(function(){
     alert("Sesion cerrada");
 })
 
+jQuery.validator.setDefaults({
+    debug: true,
+    success: "valid"
+  });
+  $( "#form-login" ).validate({
+    rules: {
+      pass: {
+        required: true,
+        digits: true,
+        max: 6
+      },
+      usuario:{
+          required:true,
+          digits: false,
+          max: 8
+      }
+    }
+  });
