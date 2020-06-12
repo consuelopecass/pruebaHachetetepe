@@ -139,6 +139,7 @@ h2,h3{
   height: 250px;
 }
 
+/** Quienes somos y Blog **/
 .caja {
   border: rgba(245, 168, 131, .8) solid 2px;
   border-radius: 20px;
@@ -147,9 +148,13 @@ h2,h3{
   padding: 30px;
 }
 
+/** Testimonios **/
+
 blockquote {
-  border: rgba(164, 54, 4, 1) solid 2px;
+  border:rgba(235, 139, 53) solid 2px;
   border-radius: 20px;
+  border-style: outset;
+  border-width: medium;
   display: inline-block;
   margin: 20px;
   padding: 30px;
@@ -163,26 +168,6 @@ blockquote {
   height: 900px;
   padding: 25px left;
 
-}
-
-/** Quienes somos y Blog **/
-
-.caja {
-  border: rgba(245, 168, 131, .8) solid 2px;
-  border-radius: 20px;
-  display: inline-block;
-  margin: 40px;
-  padding: 30px;
-}
-
-/** Testimonios **/
-
-blockquote {
-  border: rgba(164, 54, 4, 1) solid 2px;
-  border-radius: 20px;
-  display: inline-block;
-  margin: 20px;
-  padding: 30px;
 }
 
 footer{
