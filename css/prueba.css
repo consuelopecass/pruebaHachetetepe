@@ -7,7 +7,7 @@
 
 body{
   background-color: rgba(222, 223, 228, .8);
-    color: rgba(235, 139, 53, 1);
+    color:rgba(22, 31, 33, 1);
     font-family: 'Barlow', sans-serif;
     margin: 0;
 
@@ -22,7 +22,7 @@ body{
 
 header{
   width: 100%;
-  background-color: rgba(235, 139, 53, .6);
+  background-color: rgba(235, 139, 53);
   color: rgba(164, 54, 4, 1);
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -35,8 +35,15 @@ header{
 h1{
 
   color: rgba(164, 54, 4, 1);
+  text-align: center;
 
 }
+
+h2,h3{
+  color:  rgba(235, 139, 53);
+  text-align: center;
+}
+
 #bmenu{
   display:none;
 
@@ -46,14 +53,14 @@ h1{
   position: absolute;
   width: 250px;
   height: 100%;
-  background-color:rgba(155, 60, 46, .9);
-  color: #f5a883;
+  background-color:rgba(205, 187, 163, 1);
+  color:  rgba(164, 54, 4, 1);
   border-radius: 30px;
 
 }
 
 .side a{
-  color: #f5a883;
+  color:  rgba(164, 54, 4, 1);
   text-decoration: none;
   padding:  15px;
 
@@ -72,33 +79,65 @@ h1{
 .side li{
  
   margin: 25px;
+  padding: 10px;
+  border-radius: 10px;
 
 
 
 }
 .menu ul li:hover{
-  background-color: #444444;
+  background-color:rgba(245, 168, 131, .6);
   border-right: 2px solid snow;
+ color: rgba(205, 187, 163, 1);
 
 }
 
+
+
+#nat{
+  border: rgba(245, 168, 131, .8) solid 2px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 40px;
+  padding: 30px;
+
+}
+
+#isa{
+  border: rgba(245, 168, 131, .8) solid 2px;
+  display: inline-block;
+  margin: 40px;
+  padding: 30px;
+
+
+}
+#consu{
+  border: rgba(245, 168, 131, .8) solid 2px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 40px;
+  padding: 30px;
+
+}
+
+
 .fotos{
   border-radius: 50%;
-  border-color: blueviolet;
+  border-color:  rgba(164, 54, 4, 1);
   border: solid 5px;
   width: 250px;
   height: 250px;
 }
 
 .contenedor{
-  text-align: center;
+  text-align: justify;
   margin: auto;
-  width: 400px;
-  height: 300px;
+  width: 1000px;
+  height: 900px;
+  padding: 25px left;
 
- 
-  
 }
+
 
 
 
