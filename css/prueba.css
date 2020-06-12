@@ -171,12 +171,6 @@ h3 {
   
   
 }
-
-
-
-
-
-
 .fotos {
   border-radius: 50%;
   border-color: rgba(164, 54, 4, 1);
@@ -221,6 +215,18 @@ blockquote {
   padding: 25px left;
 
 }
+
+/** super **/
+
+.cajon{
+  text-align: center;
+}
+
+.lista{
+  display: flex;
+  
+}
+
 
 footer {
   background-color: rgba(245, 168, 131, .6);
