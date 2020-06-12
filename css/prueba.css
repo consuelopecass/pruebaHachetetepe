@@ -102,8 +102,9 @@ h3 {
 
 
 #nat {
-  border: rgba(245, 168, 131, .8) solid 2px;
+  border: rgba(164, 54, 4, 1) solid 2px;
   border-radius: 20px;
+  border-width: medium;
   display: inline-block;
   margin: 40px;
   padding: 30px;
@@ -111,8 +112,9 @@ h3 {
 }
 
 #isa {
-  border: rgba(245, 168, 131, .8) solid 2px;
+  border: rgba(164, 54, 4, 1) solid 2px;
   display: inline-block;
+  border-width: medium;
   margin: 40px;
   padding: 30px;
 
@@ -120,9 +122,10 @@ h3 {
 }
 
 #consu {
-  border: rgba(245, 168, 131, .8) solid 2px;
+  border: rgba(164, 54, 4, 1) solid 2px;
   border-radius: 20px;
   display: inline-block;
+  border-width: medium;
   margin: 40px;
   padding: 30px;
 
@@ -148,8 +151,9 @@ h3 {
 
 /** Quienes somos y Blog **/
 .caja {
-  border: rgba(245, 168, 131, .8) solid 2px;
+  border: rgba(164, 54, 4, 1) solid 2px;
   border-radius: 20px;
+  border-width: medium;
   display: inline-block;
   margin: 40px;
   padding: 30px;
