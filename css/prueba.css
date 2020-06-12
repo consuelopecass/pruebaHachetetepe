@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,400&display=swap');
+
 
 *{box-sizing: border-box;}
 
@@ -22,7 +24,7 @@ header{
   width: 100%;
   background-color: rgba(155, 60, 46, .6);
   text-align: center;
-  font-family: 'Concert One', cursive;
+  font-family: 'Lato', sans-serif;
   border-radius: 25px;
   padding: 10px;
   margin: 10px;
@@ -104,6 +106,15 @@ footer{
   text-align: center;
   position: fixed;
   
+}
+.boxlogin{
+  width: 300px;
+  height: 350px;
+  border: 2px solid rgba(155, 60, 46, .9);
+  border-style: dotted;
+  text-align: center;
+  margin: auto;
+
 }
 
 
